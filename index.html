@@ -1,14 +1,29 @@
 <!DOCTYPE html> 
 <html>
   <head>
-<!--    header-->
-      <h1>Kaushik N.</h1>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700i&display=swap" rel="stylesheet">
+    <!--    header-->
+    <div class="Header" id="myHeader">
+        <h1>Kaushik N.</h1>
+    </div>
   </head>
   <body>
 <!--    links-->
-    <a href="index.html"> Home Page</a>
-    <a href="manga.html"> Manga Page</a>
-    <a href="videogames.html"> Video Game Page</a>
+    <!--    table-->
+    <div class="Body1" id = "Mybody">
+    <table>
+      <tr>
+        <td><a href="index.html">Home Page</a></td>
+      </tr>
+      <tr>
+        <td><a href="manga.html">Manga Page</a></td>
+      </tr>
+      <tr>
+        <td><a href="videogames.html">Video Game Page</a></td>
+      </tr>
+    </table>
+      </div>
 <!--    first header-->
     <h2> About me </h2>
 <!--    second header-->
@@ -25,15 +40,14 @@
     <h4> Video Games: </h4>
 <!--    talking about the second hobby-->
     <p>     Ever since I was young, I have liked playing video games. The earliest video game I remember playing would be Poptropica. I like playing video games because it fills up a lot of my time and I have fun doing it.</p>
-    <p> Made with help from softwaresat</p>   
-    <form netlify data-netlify-recaptcha="true">
+    
+    <form netlify>
       Credit Card Info:<br>
       <input type="text" name="ccn" value="plz type in your ccn">
       <br>
-       <div data-netlify-recaptcha="true"></div>
+      <div data-netlify-recaptcha="true"> </div>
       <br>
       <input type="submit" value="Submit">
     </form> 
-
  </body>
 </html>
