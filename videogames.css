@@ -1,0 +1,58 @@
+h1 {
+  font-family: 'Quantico';
+}
+.header3 {
+  position: fixed;
+  font-family: 'Quantico', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  background: #ADD8E6;
+  padding-bottom: 3vmin;
+  margin-bottom: 3vmin;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);;
+}
+.body3 {
+  padding-top: 24vmin;
+  background: white;
+  margin-left: 10px;
+}
+p {
+  margin: 10px;
+  color: black;
+}
+h1 {
+  font-weight: bold;
+  margin: 10px;
+}
+img {
+  margin: 10px;
+  border-color: black;
+  border-width: 4px;
+  border-style: double;
+  border-radius: 16px;
+}
+table, th, td {
+  border: 1px solid black;
+  background: #00d9ff;
+  margin: 10px;
+}
+/*      heading font*/
+h1 {
+  font-family: 'Quantico';
+
+
+
+}
+body {
+  background-color: white;
+}
+h2 {
+  margin: 10px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
