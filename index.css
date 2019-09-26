@@ -18,7 +18,7 @@
 
 
 .Body1 {
-  padding-top: 17vmin;
+  padding-top:22vmin;
   background: white;
   margin-left: 10px;
 }
@@ -40,7 +40,7 @@ img {
 table, th, td {
   border: 1px solid black;
   background: #00d9ff;
-  margin: 10px;
+  margin:10px;
 }
 /*      heading font*/
 h1 {
